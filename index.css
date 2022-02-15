@@ -1,3 +1,17 @@
+body{
+    font-family: 'Trebuchet MS';
+    color: #fff;
+    background-image: url(./blackjacktable.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-weight: bolder;
+}
+
 h1{
     color: goldenrod;
+}
+
+#message-el{
+    font-style: italic;
 }
