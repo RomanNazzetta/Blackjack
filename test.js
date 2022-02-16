@@ -15,3 +15,5 @@ let lifeSheet = [
     "Portfolio",
     "Job Experience"
 ]
+
+console.log( lifeSheet[3], lifeSheet[2],lifeSheet[1], lifeSheet[0])
