@@ -8,12 +8,23 @@
 //     console.log("Not elegible, you have already gotten one")
 // }
 
+// let mySelf [ Roman, 35, true]
 
-let lifeSheet = [
-    "Industrial designer",
-    "Full Satck Developer",
-    "Portfolio",
-    "Job Experience"
+let cardes = [7, 4]
+cardes.push(6)
+
+console.log(cardes)
+
+let messages = [
+    "Hey, how's it going?",
+    "I'm great, thank you! How about you?",
+    "All good. Been working on my portfolio lately"
 ]
 
-console.log( lifeSheet[3], lifeSheet[2],lifeSheet[1], lifeSheet[0])
+let newMessage = "Same here!"
+
+messages.push(newMessage)
+console.log(messages)
+
+messages.pop()
+console.log(messages)
