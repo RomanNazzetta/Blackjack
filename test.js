@@ -7,24 +7,24 @@
 // } else {
 //     console.log("Not elegible, you have already gotten one")
 // }
-
+// --------------------------------------------------
 // let mySelf [ Roman, 35, true]
+// --------------------------------------------------
+// let cardes = [7, 4]
+// cardes.push(6)
 
-let cardes = [7, 4]
-cardes.push(6)
+// console.log(cardes)
 
-console.log(cardes)
+// let messages = [
+//     "Hey, how's it going?",
+//     "I'm great, thank you! How about you?",
+//     "All good. Been working on my portfolio lately"
+// ]
 
-let messages = [
-    "Hey, how's it going?",
-    "I'm great, thank you! How about you?",
-    "All good. Been working on my portfolio lately"
-]
+// let newMessage = "Same here!"
 
-let newMessage = "Same here!"
+// messages.push(newMessage)
+// console.log(messages)
 
-messages.push(newMessage)
-console.log(messages)
-
-messages.pop()
-console.log(messages)
+// messages.pop()
+// console.log(messages)
