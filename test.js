@@ -34,8 +34,8 @@
 // }
 
 
-let cartas = [3,6,9]
+// let cartas = [3,6,9]
 
-for (let i = 0; i< cartas.length; i += 1){
-    console.log(cartas[i])
-}
+// for (let i = 0; i< cartas.length; i += 1){
+//     console.log(cartas[i])
+// }
