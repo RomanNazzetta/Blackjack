@@ -76,12 +76,11 @@
 
 
 let hasSolvedChallenge = false
-let hasHintsLeft = false
-
+let hasHintsLeft = true
 // Create an if statement that checks that both variables are false.
 // If so, run the showSolution() function
 
-if (hasSolvedChallenge === false && hasHintsLeft === false){
+if (hasSolvedChallenge === false || hasHintsLeft === false){
     showSolution()
 }
 
