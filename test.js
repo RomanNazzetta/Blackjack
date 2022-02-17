@@ -67,9 +67,24 @@
 
 // console.log(randomNumber)
 
-function rollDice(){
-    let randomNumberes = Math.floor( Math.random() * 6 ) + 1
-    return randomNumberes
+// function rollDice(){
+//     let randomNumberes = Math.floor( Math.random() * 6 ) + 1
+//     return randomNumberes
+// }
+
+// console.log(rollDice())
+
+
+let hasSolvedChallenge = false
+let hasHintsLeft = false
+
+// Create an if statement that checks that both variables are false.
+// If so, run the showSolution() function
+
+if (hasSolvedChallenge === false && hasHintsLeft === false){
+    showSolution()
 }
 
-console.log(rollDice())
+function showSolution() {
+    console.log("Showing the solution....")
+}
