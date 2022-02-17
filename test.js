@@ -61,3 +61,9 @@
 // let totalTime = totalRaceTime()
 
 // console.log(totalTime)
+
+
+
+let randomNumber = Math.random() * 6
+
+console.log(randomNumber)
