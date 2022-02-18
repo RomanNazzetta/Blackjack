@@ -87,3 +87,15 @@
 // function showSolution() {
 //     console.log("Showing the solution....")
 // }
+
+
+
+
+let castle = {
+    available : true,
+    country : "england",
+    rooms : 15,
+    price : ["130","150"]
+}
+
+console.log(castle.available,castle.country)
