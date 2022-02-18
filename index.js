@@ -2,7 +2,6 @@ let player = {
     name: "Roman",
     chips: 120
 }
-
 let cards = []
 let sum = 0
 let hasBlackjack = false
@@ -12,7 +11,6 @@ let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
 let playerEl = document.getElementById("player-el")
-
 playerEl.textContent = player.name +": $" + player.chips
 
 function getRandomCard(){
@@ -62,5 +60,4 @@ function newCard() {
         cards.push(card)
         renderGame()        
     }
-
 }
