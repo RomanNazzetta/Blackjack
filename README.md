@@ -1,3 +1,3 @@
 # Blackjack
 #Deployed
-https://blackjack-project-roman.netlify.app
+https://blackjack-project-rn.netlify.app/
